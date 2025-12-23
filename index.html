@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Rangga & Salsa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Montserrat:wght@200;300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="weddingMusic" loop>
+        <source src="nadin.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="music-control" class="music-btn hidden-element">
+        <div class="music-pulse"></div>
+        <span class="music-icon">🎵</span>
+    </div>
+
+    <div id="overlay">
+        <div class="cover-content">
+            <div class="cover-border">
+                <p class="pre-title">THE WEDDING OF</p>
+                <h1 class="main-name">Rangga & Salsa</h1>
+                <div class="ornament-line">
+                    <span></span><i class="diamond"></i><span></span>
+                </div>
+                <div class="invitation-for">
+                    <p>Kepada Yth. Bapak/Ibu/Saudara/i</p>
+                    <h2 class="guest-name">Tamu Undangan</h2>
+                </div>
+                <button id="open-btn" class="btn-reveal">Buka Undangan</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content" class="hidden-content">
+        
+        <section class="hero-aesthetic">
+            <div class="hero-inner">
+                <div class="arch-frame main-arch animate-scroll">
+                    <img src="poto 2.jpg" alt="Arga & Salsa">
+                </div>
+                <div class="hero-text">
+                    <p class="hero-sub">Save the Date</p>
+                    <h2 class="hero-names">Arga & Salsa</h2>
+                    <p class="hero-date">25 . 12 . 2025</p>
+                    
+                    <div class="countdown-elegant animate-scroll">
+                        <div class="time-item"><span id="days">00</span><label>Hari</label></div>
+                        <div class="time-item"><span id="hours">00</span><label>Jam</label></div>
+                        <div class="time-item"><span id="minutes">00</span><label>Menit</label></div>
+                        <div class="time-item"><span id="seconds">00</span><label>Detik</label></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="couple-profile">
+            <div class="profile-container">
+                <div class="person animate-scroll">
+                    <div class="arch-frame profile-arch">
+                        <img src="arga.jpg" alt="Arga">
+                    </div>
+                    <h3 class="person-name">Rangga</h3>
+                    <p class="person-desc">Putra Bungsu dari <br> <b>Bpk. Nana (Alm) & Ibu Dian Haerani</b></p>
+                </div>
+
+                <div class="ampersand-elegant animate-scroll">&</div>
+
+                <div class="person animate-scroll">
+                    <div class="arch-frame profile-arch">
+                        <img src="salsa.jpg" alt="Salsa">
+                    </div>
+                    <h3 class="person-name">Salsa</h3>
+                    <p class="person-desc">Putri Pertama dari <br> <b>Bpk. Ceceng & Ibu Lia</b></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="event-aesthetic">
+            <div class="event-card animate-scroll">
+                <h2 class="event-title">Acara Pernikahan</h2>
+                <div class="event-info">
+                    <div class="info-group">
+                        <span class="gold-text">TANGGAL</span>
+                        <p>minggu, 28 desember 2025</p>
+                    </div>
+                    <div class="info-group">
+                        <span class="gold-text">WAKTU</span>
+                        <p>11.00 - 17.00 WIB</p>
+                    </div>
+                    <div class="info-group">
+                        <span class="gold-text">LOKASI</span>
+                        <p><b>KP. Rancaating/Boncel/RT.02/RW.15</b>Desa Bojongemas/Kec.Solokanjeruk<br><br>Kabupaten Bandung</p>
+                    </div>
+                </div>
+                <a href="https://maps.google.com/?cid=17596895283417133780&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNl" target="_blank" class="btn-map-aesthetic">BUKA GOOGLE MAPS</a>
+            </div>
+        </section>
+
+        <section class="gift-aesthetic">
+            <div class="gift-container animate-scroll">
+                <h2 class="gift-title">Wedding Virtual Gift</h2>
+                <p class="gift-subtitle">Tanda kasih dapat disalurkan melalui:</p>
+                
+                <div class="bank-card">
+                    <div class="bank-header">BCA</div>
+                    <p class="bank-acc">3761316212</p>
+                    <p class="bank-user">a.n Rangga Maulana</p>
+                </div>
+
+                <div class="wallet-links">
+                    <a href="https://link.dana.id/send-money/083829814950" target="_blank" class="wallet-btn">DANA</a>
+                    <a href="https://shopee.co.id/universal-link/wallet/transfer?phoneNumber=083829814950" target="_blank" class="wallet-btn">SHOPEEPAY</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-aesthetic">
+            <p>Atas kehadiran & doa restunya, kami ucapkan terimakasih.</p>
+            <h2 class="footer-names">Rangga & Salsa</h2>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
